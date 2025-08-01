@@ -1,140 +1,85 @@
-# Ternify-Tech-task3
-Web development (frontend intern)
+🎵 Task 3 – Music Player Web App
 
-📝 Ternify Tech Internship
+📌 Project Description
 
-💻 Task 3: Quiz Web Application
-
-
----
-
-👨‍💻 Submitted By:
-
-Aravind Kumar G.S
-Web Development Intern @ Ternify Tech
+This is a fully functional Music Player Web App built as part of the internship with Ternify Tech. The application allows users to play, pause, skip tracks, and view song metadata in a visually appealing interface.
 
 
 ---
 
-📁 Project Name:
+✨ Features
 
-Simple Quiz Web Application
+Play, pause, next, and previous buttons
 
+Automatically plays the next song in the list
 
----
+Displays song title, artist, and cover image
 
-🛠️ Tech Stack:
+Interactive progress bar
 
-HTML5
-
-CSS3
-
-JavaScript
+Responsive design for mobile and desktop
 
 
 
 ---
 
-🎯 Objective:
+🛠️ Tech Stack
 
-Build a Quiz Web App that allows users to answer multiple-choice questions, track their score, and view their result at the end.
+HTML – Structure of the music player
 
+CSS – Styling and animations
 
----
-
-📂 File Structure:
-
-Filename	Purpose
-
-index.html	HTML structure of the quiz interface
-style.css	Styling for layout, buttons, and colors
-quiz.js	JavaScript logic for quiz flow and score
-assets/	Optional - images/icons if used
+JavaScript – Functionality and audio control
 
 
 
 ---
 
-📸 Features:
+🚀 How to Use
 
-Multiple-choice questions with 4 options
-
-Score tracking and result display
-
-Next question button
-
-Final score summary
-
-Responsive design (mobile-friendly)
+1. Clone or download this repository
 
 
-
----
-
-💥 Common Errors Fixed:
-
-If you get errors like:
-
-Cannot set properties of null (setting 'innerText')
-
-✅ Make sure the id in your JavaScript exactly matches the element ID in your HTML.
-
-Example: In HTML:
-
-<div id="question"></div>
-
-In JavaScript:
-
-document.getElementById("question").innerText = "Q1: ...";
+2. Open index.html in your browser
 
 
----
-
-📱 Steps to Run on Mobile:
-
-1. Use any mobile code editor:
-
-Acode (Recommended)
-
-Spck Editor
-
-
-
-2. Create these 3 files:
-
-index.html
-
-style.css
-
-quiz.js
-
-
-
-3. Paste the respective code into each file.
-
-
-4. Open index.html in your mobile browser using the editor preview feature.
+3. Enjoy the music player experience!
 
 
 
 
 ---
 
-✅ How to Use:
+📁 File Structure
 
-User clicks "Start Quiz"
-
-Questions appear one by one
-
-User selects answer and clicks "Next"
-
-Final score is shown at the end
-
+music-player/
+│
+├── index.html          # Main HTML file
+├── style.css           # Styling for the app
+├── script.js           # Functionality and logic
+└── assets/
+    ├── songs/          # MP3 files
+    └── images/         # Cover images
 
 
 ---
 
-🔗 Bonus Suggestion:
+📸 Screenshots
 
-Add a restart button at the end and improve UI with CSS transitions.
+Add screenshots of your music player UI here (optional)
 
+
+---
+
+👨‍💻 Author
+
+Aravind Kumar
+Intern at Ternify Tech
+
+
+---
+
+📌 Status
+
+✅ Completed as Task 3 in Internship
+🔄 Future Updates: Volume control, Shuffle/Repeat, Playlist support
